@@ -103,3 +103,7 @@ a:hover {
     background-color: #1DA1F2;
     color: white;
 }
+
+.spacing {
+    margin-bottom: 2rem;
+}
