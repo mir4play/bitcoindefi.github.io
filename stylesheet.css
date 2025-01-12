@@ -64,10 +64,11 @@ a:hover {
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
+    flex-wrap: wrap;
 }
 
 .social-button {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     padding: 0.8rem 1.5rem;
@@ -75,6 +76,8 @@ a:hover {
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.2s;
+    min-width: 120px;
+    justify-content: center;
 }
 
 .social-button:hover {
