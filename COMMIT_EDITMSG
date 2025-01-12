@@ -1,0 +1,4 @@
+feat: adiciona espaçamento na div da imagem
+
+- Adiciona classe spacing para melhorar o espaçamento vertical
+- Implementa margem inferior de 2rem no CSS 
