@@ -52,3 +52,46 @@ a {
 a:hover {
     color: #00b89a;
 }
+
+.social-links {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.social-button:hover {
+    transform: translateY(-2px);
+}
+
+.social-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.telegram {
+    background-color: #0088cc;
+    color: white;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    color: white;
+}
