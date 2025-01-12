@@ -9,6 +9,7 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
+    min-height: 100vh;
 }
 
 header {
@@ -36,8 +37,8 @@ p {
 }
 
 footer {
-    position: absolute;
-    bottom: 10px;
+    position: relative;
+    margin-top: auto;
     font-size: 0.9em;
     color: #555;
 }
